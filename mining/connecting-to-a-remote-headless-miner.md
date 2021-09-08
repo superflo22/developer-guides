@@ -1,8 +1,8 @@
 # Connecting to a remote \(headless\) miner
 
 To connect to a miner and not having to turn off the browsers SSL/TLS you can:
-- issue a Certificate with a Domain you own and setup a proxy (comlicated)
-- port worward the miner to your localhost
+- issue a Certificate with a Domain you own and setup a proxy (complicated)
+- port forward the miner to your localhost
 
 ## Port forward with ssh
 
@@ -12,7 +12,7 @@ To set this up there are a few simple steps:
 ### 1. Installing ssh
 
 SSH is already installed on GNU/Linux.
-For Windows install your favorite application.  
+For Windows install your favorite application (OpenSSH should be pre-installed on Windows 10+).  
 
 ### 2. Editing `~/.ssh/config`
 
